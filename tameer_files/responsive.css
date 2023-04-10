@@ -1,0 +1,1007 @@
+@charset "utf-8";
+/* CSS Document */
+
+#paavalikko-resp {
+	display:none !important;
+}
+
+
+
+.flex-container {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flexbox;
+    display: flex;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+}
+
+
+.flex-container .col-3 {
+  	background-color: #dddddd;
+		outline: 11px solid #dddddd;
+		border: 1px solid #fff;
+  
+  
+    -webkit-box-flex: 1;   /* OLD - iOS 6-, Safari 3.1-6 */
+  	width: 32%;            /* For old syntax, otherwise collapses. */
+  	-webkit-flex: 1;       /* Safari 6.1+. iOS 7.1+, BB10 */
+  	-ms-flex: 1;           /* IE 10 */
+  	flex: 1;               /* NEW, Spec - Firefox, Chrome, Opera */
+  
+  
+    -webkit-flex-grow: 1;
+    flex-grow: 1;
+    -webkit-flex-shrink: 2;
+    flex-shrink: 2;
+    -webkit-flex-basis: 32%;
+    flex-basis: 32%;
+  
+
+}
+
+.lamboard-sp .flex-container .col-3{
+  background-color: #eeeeee;
+	outline: 11px solid #eeeeee;
+
+}
+
+.flex-container .col-3 div,
+.tuotenosto,
+.tuotenosto tbody,
+.tuotenosto tr,
+.tuotenosto td{display:block;  width:100%; max-width:100%; height:auto;}
+
+tr.tuotenosto_teksti {width: 94%;}
+.tuotenosto {width: 95%;}
+.tuotenosto img{width: auto; vertical-align:middle; padding:0;}
+
+
+p{font-size:16px;}
+
+
+.taustakuvaosio{
+  	position:relative; 
+  	overflow:hidden;
+
+}
+
+
+.tekstiosio{
+    position: absolute;
+    top: 0;
+    width: 30%;
+    padding: 5%;
+    min-height: auto;
+    background-color: #fff;  
+  	background-color:rgba(255, 255, 255, 0.86);
+  	background-color:hsla(360, 100%, 100%, 0.86);
+    margin-left: 30%;
+
+}
+
+.taustakuvaosio{
+  	position:relative; 
+  	overflow:hidden;
+}
+
+
+.tekstiosio{
+    position: absolute;
+    top: 0;
+    width: 30%;
+    padding: 100px 2%;
+    min-height: auto;
+    background-color: #fff;  
+  	background-color:rgba(255, 255, 255, 0.86);
+  	background-color:hsla(360, 100%, 100%, 0.86);
+    margin-left: 33%;
+  	min-height: 515px;
+
+}
+
+
+.tekstiosio-admin{ width:30%; margin:0 auto; float:none; padding:100px 5%;}
+	
+	/*Desktop*/
+@media screen and (max-width:1620px) {
+.center-col {
+	width: 1400px;
+}
+
+ul#kielinavi li a {
+	font-size: 12px;
+	line-height: 14px;
+	color: #000;
+	margin: 20px 10px;
+	padding: 8px 10px;
+	height: auto;
+}
+nav.top-navi li a {
+	padding: 15px;
+	font-size: 16px;/*1.025em;*/
+}
+nav.top-navi li a, nav.top-navi ul:first-of-type li:first-of-type a {
+	padding-top:26px;
+	padding-bottom:26px;
+}
+  
+nav#english-navi li a { padding-left:16px;padding-right:16px;}
+nav#english-navi #kielinavi li a,#mobile-langlinks a#sel-en-mobile  {padding:8px;}  
+  
+body {
+    font-size: 90%;
+}  
+  
+  
+.paaotsikko h1 {
+    padding-top: 25px;
+    font-size: 2.8em;
+} 
+  
+.logo-alasivu {
+    padding: 60px 0 100px;
+}
+  
+  
+.karuselliteksti {top: 70px;}  
+  
+
+/*konserni*/
+  .tekstiosio {
+    padding: 70px 2% 0;
+    min-height: 450px;
+  }
+  
+.tekstiosio {
+    padding: 50px 2% 0;
+    min-height: 480px;
+    width: 46%;
+    margin-left: 25%;
+}  
+  
+  
+  /*lamboard*/
+  
+  .lamboardpaakuva {
+    height: 780px;
+}
+  
+
+a.extralinkki {
+    
+    margin-top: 15px;
+}
+
+}
+
+
+/*Laptob*/
+@media screen and (max-width:1440px) {
+.center-col {
+	width: 1200px;
+}
+    #mainimg-front {
+    height: 810px;
+  }
+  video {
+    width: 1441px !important;
+}
+#bgvid {
+    margin-left: -725px;
+}
+nav.top-navi li a {
+	padding: 12px;
+	font-size: 14px;/*0.9300em;*/
+	font-weight: 500;
+}
+nav.top-navi ul {
+	width: 88%;
+}
+nav.top-navi ul#kielinavi {
+	width: 12%;
+}
+nav.top-navi li a, nav.top-navi ul:first-of-type li:first-of-type a {
+	padding-top:22px;
+	padding-bottom:22px;
+}
+ul#kielinavi li a {margin: 16px 10px 16px;}
+  
+nav#english-navi li a { padding-left:12px;padding-right:12px;} 
+  
+  body {font-size: 80%;}
+  
+.karuselliteksti {
+    top: 60px;
+    width: 80%;
+}
+  
+  .logo-alasivu {padding: 40px 0 80px;}
+.logo-etusivu {
+    margin-top: -16px;
+    padding: 51px 0 64px 0 !important;
+}
+  .logo-etusivu img {
+width: 165px;
+    height:auto;
+  }
+  
+  
+  /*konserni*/
+  .tekstiosio {
+    padding: 50px 2% 0;
+    min-height: 320px;
+    width: 60%;
+    margin-left: 20%;
+}
+  
+  /*lamboard*/
+  
+.logo-lamboard img {
+    top: -5px;
+    left: -375px;
+    width: 750px;
+}
+  
+  .lamboardpaakuva {
+    height: 500px;
+    background-size: cover;
+}
+  
+.slogan-lamboard img {width: 500px;} 
+  
+  
+  
+  
+  .slogan-lamboard {top: 300px;}
+  
+  
+  /*lamboard uk*/
+  a.extralinkki {
+    margin-left: 0;
+}
+  
+.lamboard-sp-en nav.top-navi ul {
+    width: 80%;
+}  
+  
+  
+}
+
+
+/*Laptob, Tablets*/
+@media screen and (max-width:1280px) {
+.center-col {
+	width: 1000px;
+}
+  
+    #mainimg-front {
+    height: 650px;
+  }
+  video {
+    width: 1280px !important;
+}
+#bgvid {
+    margin-left: -639px;
+}
+nav.top-navi {
+	width: 100%;
+	padding: 0;
+	height: auto;
+}
+nav.top-navi {
+	float: left;
+	background-image:none;
+	background-color:#fff;
+}
+
+ul#kielinavi li a {
+    margin: 19px 10px;
+}
+  
+  
+  nav.top-navi li a, nav.top-navi ul:first-of-type li:first-of-type a {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+  
+  
+  body { font-size: 70%;}
+  
+  h6 { font-size: 18px;}
+  
+  .sisalto {
+    margin-top: 30px;
+    margin-bottom: 90px;
+}
+  
+  
+.karuselliteksti {
+    top: 35px;
+    width: 90%;
+    left: 5%;
+    padding: 0;
+    font-size: 90%;
+}
+  
+  .karuselliteksti p{ font-size: 14px;}  
+  
+ .karuselliteksti a.webiolinkkipainike {
+    margin-top: 0px;
+    padding: 10px 60px;
+    font-size: 13px;
+	line-height:15px;
+}
+  
+  
+  .flex-container .col-3 { outline: 5px solid #dddddd;}
+  
+.tuotenosto_teksti { padding: 20px 3%;}  
+  
+  
+footer { padding-top: 50px;}  
+  
+.alafooter { margin-top: 50px;}  
+  
+  
+  .logo img {width: 200px;}
+  .logo-alasivu {padding: 10px 0 40px;}
+  .logo-etusivu img {
+    width: 155px;
+  }
+  .logo-etusivu {
+    margin-top: -16px;
+    padding:22px 0 21px 0 !important;
+}
+  
+  .logo-etusivu { margin-top: 10px;}
+  
+  
+  .lamboardpaakuva {height: 400px;}
+  
+	.logo-lamboard img {
+    top: 0;
+    left: -275px;
+    width: 550px;
+	}
+  
+  .slogan-lamboard img { width: 350px;}  
+  .slogan-lamboard { top: 250px;}
+  
+  
+    iframe{max-width:98%;}
+  
+  
+.lamboard-sp-en .logo-lamboard.content-col {height: 200px;}
+  
+ 
+.lamboard-sp-en .logo-lamboard img {
+    margin: 80px auto;
+    width: 300px !important;
+}
+  
+a.extralinkki {
+    margin-top: 16px;
+    right: 0;
+}
+  
+}
+
+
+/*Tablets*/
+@media screen and (max-width:1024px) {
+.center-col {
+	width: 760px;
+}
+  .slogan {
+    margin-bottom: 0;
+    padding-top: 171px;
+}
+    #mainimg-front {
+    height: 576px;
+  }
+  video {
+    width: 1024px !important;
+}
+#bgvid {
+    margin-left: -512px;
+  }
+nav.top-navi li a {
+	padding: 22px 14px;
+	font-size: 0.8500em;
+}
+nav.top-navi ul:first-of-type li:first-of-type a {
+	padding: 18px 10px;
+}
+nav.top-navi ul,
+.lamboard-sp-en nav.top-navi ul{
+	width: 100%;
+	margin-top: 50px;
+	background-color: #fff;
+}
+  nav#english-navi li a {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+  
+header .center-col {
+	position:relative;
+}
+nav.top-navi ul#kielinavi {
+	width: 15%;
+	position: absolute;
+	right: 0;
+	top: 0;
+  margin-top: 0;
+}
+  
+nav.top-navi,
+nav.top-navi ul#kielinavi {
+	background-color: transparent;
+}  
+  
+ul#kielinavi li a {
+	margin: 10px 10px;
+}
+  
+#sel-en.ei-valittu a, #sel-fi.ei-valittu a {
+    background-color: rgba(255, 255, 255, 0.72);
+    border-radius: 200px;
+    color: #000;
+    padding: 8px 8px;
+}  
+  
+  #sel-fi.ei-valittu a {
+    padding: 8px 10px !important;
+}
+  
+nav.top-navi li a {
+	padding: 12px;
+	font-size:13px;/* 0.8300em;*/
+}
+nav.top-navi ul:first-of-type li:first-of-type a, nav.top-navi li a {
+	padding-top: 15px;
+	padding-bottom:15px;
+  margin-top: 2px;  
+}
+ 
+
+body {font-size: 60%;}
+  
+  
+  .alafooter .col-66,
+  .alafooter .col-33{width:100%;}  
+  
+  #semiowebio{padding-top:20px;}
+  
+  
+  .tekstiosio {
+    padding: 20px 5%;
+    min-height: auto;
+    width: 90%;
+    margin-left: 0;
+    position: static;
+    background-color: #f0f0f0;
+    margin-bottom: 20px;
+}
+  
+/*lamboard*/
+  
+  .lamboardpaakuva {
+    height: 300px;
+}
+  
+.slogan-lamboard {
+    top: 210px;
+}
+  
+  .slogan-lamboard img {
+    width: 290px;
+}
+  
+ .lamboard-sp-en .logo-lamboard img {
+    top: 30px;
+}
+  
+.lamboard-sp-en nav #kielinavi li a{
+	background-color: #fff;
+	border-radius: 200px;
+}
+  
+a.extralinkki {
+    right: 0;
+    margin-top: 8px;
+    margin-right: 0;
+}
+  .lamboard-sp-en nav.top-navi {position: relative;}
+  
+  
+  /*karuselli*/
+
+  .karuselliteksti {
+    width: 90%;
+    padding: 5%;
+    font-size: 90%;
+    position: static;
+    background-color: #F9F8F6;
+    font-size: 100%;
+}
+  
+  .item-sahatavara  .karuselliteksti{background-color:#000;}
+  
+  .karuselliitem img{display:none !important;}
+}
+
+
+/*Tablets, mobilephones -horizontal*/
+@media screen and (max-width:765px) {
+.center-col {
+	width: 94%;
+}
+  
+  
+  #mobile-langlinks a {font-size: 12px;
+line-height: 14px;
+color: #000;
+margin: 31px 0px;
+padding: 8px 10px;
+height: auto;}
+
+#mobile-langlinks a.valittu {
+background-color: #4b3805;
+border-radius: 200px;
+  color: #fff;}
+
+
+#mobile-langlinks {
+    position: absolute;
+    right: 0;
+    z-index: 200000000000000;
+    right: 13%;
+    font-size: 16px;
+    color: #000;
+    top: 35px;
+    display:block;
+}
+  
+  
+  
+  
+
+  
+  #mainimg-front {
+  display:none;
+  }
+#paavalikko-resp {
+	display:block !important;
+}
+nav.top-navi {
+	display:none;
+}
+  
+.logo {
+    margin-top: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 110px;
+    padding: 5px 0 0;
+    z-index: 9999;
+} 
+  
+
+.logo-etusivu {
+	padding:20px 0 0 0 !important;
+}
+    
+.logo-etusivu img {
+    width: 60px !important;
+}
+  
+  
+.logo.logo-lamboard {
+    width: 210px;
+    padding: 33px 0 0;
+}  
+  
+.logo.logo-lamboard img {
+    width: auto;
+    max-width: 100%;
+    margin: 0 auto;
+}
+  
+.slogan {
+    margin-bottom: 0;
+    margin-top: 86px;
+    padding: 0;
+    padding: 150px 0px;
+}
+  
+.ylafooter td{
+  display:block;
+  width:50%;
+  float:left;
+  height:auto;
+  padding:2% 0;
+}
+  
+.ylafooter table,
+.ylafooter tr,
+.ylafooter tbody,
+.alafooter .col-66 table,
+.alafooter .col-66 tr,
+.alafooter .col-66 td,
+.alafooter .col-66 tbody{
+  display:block;
+  width:100%;
+    float:left;
+  height:auto;
+}
+  
+  .alafooter .col-66{text-align:center;}  
+
+  
+header.etusivuh {min-height: 275px;}
+  
+  
+footer {background-size: cover;} 
+  
+  
+  a.webiolinkkipainike {padding: 15px 45px;}  
+  
+.paaotsikko {margin-top: 180px;}  
+  
+  .logo img,
+  .logo-alasivu img{
+    width: 100px;
+}
+
+  
+  /*lamboard*/
+  img.desktop-logo{display:none;}
+	img.mobile-logo {
+    display: block !important;
+    position: static;
+    left: 0;
+    width: auto;
+    float: none;
+	}
+  
+  
+  .slogan-lamboard { top: 140px;}
+  
+  .lamboardpaakuva { height: 240px;}
+.slogan-lamboard img { width: 360px;}
+  
+  
+
+  
+  
+  .sivupalkki{margin-top:20px;}  
+  
+  
+/* hide the link until viewport size is reached */
+a.meanmenu-reveal {
+	display: none;
+}
+/* when under viewport size, .mean-container is added to body */
+.mean-container .mean-bar {
+    float: left;
+    width: 100%;
+    position: absolute;
+    background: #fff;
+    background: rgba(255, 255, 255, 0.87);
+    background:hsla(360, 100%, 100%, 0.87);
+    padding: 0;
+    z-index: 90;
+    top: 0;
+    min-height: 95px;
+    
+}
+  
+.mean-container a.meanmenu-reveal {
+	/*		width: 40px;
+	height: 42px;*/
+	width: 40px;
+	height: 22px;
+	padding: 10px 0px 11px;
+	position: absolute;
+	top: 15px;
+	right: 0;
+	cursor: pointer;
+	color: #4b3805;
+	text-decoration: none;
+	font-size: 16px;
+	text-indent: -9999em;
+	line-height: 22px;
+	font-size: 1px;
+	display: block;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 700;
+	margin-right:5%;
+}
+.mean-container a.meanmenu-reveal::after {
+	content: "Valikko";
+	font-size:10px;
+	color:#4b3805;
+	text-align:center;
+}
+.mean-container a.meanmenu-reveal.meanclose::after {
+	content:none;
+}
+.mean-container a.meanmenu-reveal span {
+	display: block;
+	background: #4b3805;
+	height: 4px;
+	margin-top: 5px;
+	border-radius: 3px;
+}
+  
+  .lamboard-sp .mean-container a.meanmenu-reveal span,
+  .lamboard-sp .mean-container .mean-nav{ background:#F9B233; }  
+  .lamboard-sp .mean-container a.meanmenu-reveal::after,
+  .lamboard-sp .mean-container a.meanmenu-reveal.meanclose{color:#F9B233;}
+  
+  .lamboard-sp-en .mean-container a.meanmenu-reveal span,
+  .lamboard-sp-en .mean-container .mean-nav{ background:#0061A2; }  
+  .lamboard-sp-en .mean-container a.meanmenu-reveal::after,
+  .lamboard-sp-en .mean-container a.meanmenu-reveal.meanclose{color:#0061A2;}
+  
+  
+  
+  
+.mean-container .mean-nav {
+	float: left;
+	width: 100%;
+	background: #4b3805;
+	margin-top: 95px;
+}
+.mean-container .mean-nav ul {
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	list-style-type: none;
+}
+.mean-container .mean-nav ul li {
+	position: relative;
+	float: left;
+	width: 100%;
+}
+.mean-container .mean-nav ul li a {
+	display: block;
+	float: left;
+	width: 90%;
+	padding: 1em 5%;
+	margin: 0;
+	text-align: left;
+  font-size: 14px;
+	color: #fff;
+	border-bottom: 1px solid #383838;
+	border-bottom: 1px solid rgba(255,255,255,0.5);
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.mean-container .mean-nav ul li li a {
+	width: 80%;
+	padding: 1em 10%;
+	border-bottom: 1px solid #f1f1f1;
+	border-bottom: 1px solid rgba(255,255,255,0.25);
+	opacity: 0.75;
+	filter: alpha(opacity=75);
+	text-shadow: none !important;
+	visibility: visible;
+}
+.mean-container .mean-nav ul li.mean-last a {
+	border-bottom: none;
+	margin-bottom: 0;
+}
+.mean-container .mean-nav ul li li li a {
+	width: 70%;
+	padding: 1em 15%;
+}
+.mean-container .mean-nav ul li li li li a {
+	width: 60%;
+	padding: 1em 20%;
+}
+.mean-container .mean-nav ul li li li li li a {
+	width: 50%;
+	padding: 1em 25%;
+}
+.mean-container .mean-nav ul li a:hover {
+	background: #252525;
+	background: rgba(255,255,255,0.1);
+}
+.mean-container .mean-nav ul li a.mean-expand {
+	width: 26px;
+	height: 26px;
+	border: none !important;
+	padding: 12px !important;
+	text-align: center;
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: 2;
+	font-weight: 700;
+}
+.mean-container .mean-nav ul li a.mean-expand:hover {
+	background: none;
+}
+.mean-container .mean-push {
+	float: left;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	clear: both;
+}
+.mean-nav .wrapper {
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+.mean-currentpage {
+	display:none;
+}
+  
+  
+  
+  
+  
+/* Webio Asettelumallidivit */
+ .col-left, .col-right, .col-3, .col-3-center {
+		width:100%;
+		padding:3% 0;
+}
+  
+  
+  .sisalto td{width:100%; float: left; }
+
+table{
+  display:block;
+  width:100%;
+  height:auto;
+}
+
+
+ .col-3-center {margin: 0;}
+ 
+  
+  
+  .flex-container {
+    display: block;
+  }
+  
+  .flex-container .col-3 {
+    outline: 10px solid #dddddd;
+    width: 80%;
+    float: left;
+    margin: 0 10% 50px;
+}
+  
+  .flex-container .col-3:last-childe{margin-bottom:0;}
+  
+  
+  
+  /*lamboard uk*/
+  .lamboard-sp-en .sisalto > div{
+    width:100%;
+    margin-left:0;
+    margin-right:0;
+  
+  }
+  
+ 
+.lamboard-sp-en .logo-lamboard img {
+    margin: 0 auto;
+    width: auto !important;
+    float:left;
+}  /*
+    
+.lamboard-sp-en .logo.logo-lamboard {
+    width: auto;
+    padding: 15px 0 0;
+    height: auto;
+}  */
+  
+.mean-bar {
+	display: inherit;
+  }
+
+.lamboard-sp-en .mean-container .mean-bar {
+  background: #fff;  
+  
+  
+}
+
+/*mobilephones -horizontal*/
+@media screen and (max-width:640px) {
+  
+  
+  .ylafooter td{
+  	width:100% !important;
+  	padding:2% 0;
+}
+  
+  #mobile-langlinks {right: 15%;
+    }}
+
+/*mobilephones -horizontal*/
+@media screen and (max-width:568px) {
+}
+
+
+
+/*mobilephones*/
+@media screen and (max-width:480px) {
+#mainimg-front {
+    height: 335px;
+    }
+.slogan {
+    margin-bottom: 0;
+    margin-top: 86px;
+    padding: 100px 0px;
+}
+    
+    #mobile-langlinks {right: 18%
+    }
+    
+    
+}
+
+
+/*mobilephones*/
+@media screen and (max-width:375px) {
+  
+  .logo.logo-lamboard {
+    width: 160px;
+    padding: 36px 0 0;
+}
+    
+    #mobile-langlinks {right: 20%
+    }
+    
+    
+}
+
+
+
+/*mobilephones*/
+@media screen and (max-width:320px) {
+}
+
+
+
+
+
+@media screen and (max-width:1280px) {
+#kulmaliitostaulukko td {
+    width: 23%;
+    display: block;
+    float: left;
+    margin: 0 1%;
+  }}
+
+
+@media screen and (max-width:860px) {
+#kulmaliitostaulukko td {
+    width: 48%;
+    display: block;
+    float: left;
+    margin: 0 1%;
+  }}
+
+
+@media screen and (max-width:375px) {
+#kulmaliitostaulukko td {
+    width: 98%;
+    display: block;
+    float: none;
+    margin: 0 1%;
+    text-align: center;
+}
+
+#kulmaliitostaulukko tr, #kulmaliitostaulukko tbody {
+    display: block;
+    width: 100%;
+  }}

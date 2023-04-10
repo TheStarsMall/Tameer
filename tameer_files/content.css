@@ -1,0 +1,531 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+#mobile-langlinks {
+	display:none;
+}
+
+
+
+.center-col img {
+	border:0;
+	max-width:100%;
+	height:auto;
+}
+
+.mean-bar {
+	display: none;
+  }
+
+span .clear {
+	clear:both;
+	font-size:1px;
+	height:1px;
+	line-height:1px;
+	margin-bottom:-1px;
+	overflow:hidden;
+}
+.content-col {
+	width:100%;
+	height:auto;
+	clear:both;
+	float:left;
+}
+.center-col {
+	clear:both;
+	width: 1600px;
+	margin:0 auto;
+	display:block;
+}
+
+
+
+ /* Selected */
+
+#sel-huonekalu-3 a, #sel-sahatavara-4 a, #sel-lamboard-5 a, #sel-tuotantotapa-6 a, #sel-konserni-7 a, #sel-yhteys-8 a,
+#sel-oakpanels-18 a, #sel-pine-19 a, #sel-stock-20 a, #sel-contact-21 a,
+#sel-huonekalu-13 a, #sel-sahatavara-14 a, #sel-lamboard-15 a, #sel-tuotantotapa-16 a, #sel-konserni-17 a, #sel-yhteys-18 a,
+#sel-oakpanels-40 a, #sel-pine-41 a, #sel-stock-42 a, #sel-contact-43 a
+{
+    background-color: #cdcdcd;
+    color: #fff;
+}
+
+#sel-huonekalu-3 a:hover, #sel-sahatavara-4 a:hover, #sel-lamboard-5 a:hover, #sel-tuotantotapa-6 a:hover, #sel-konserni-7 a:hover, #sel-yhteys-8 a:hover{
+    color: #000;
+}
+
+
+header.etusivuh {
+	background:url(frontpage-bg3.jpg) no-repeat top center;
+	margin-bottom:20px;
+  min-height: 975px;
+}
+footer {
+	background:url(footerbg.jpg) no-repeat top center;
+	border-bottom:16px solid #fff;
+  padding-top: 110px;
+  background-size: cover;
+}
+.alafooter {
+	width:70%;
+	margin-top:65px;
+	padding:35px 15% 15px;
+	background:url(alafooterbg.png) no-repeat bottom center;
+	background-size: 100% 100%;
+
+}
+
+.paaotsikko h1{padding-top:30px;}
+
+.alafooter p,
+.alafooter td,
+.alafooter{
+color:#4b3805;
+}
+
+
+.ylafooter p,
+.ylafooter,
+.ylafooter td,
+.ylafooter h2,
+.ylafooter h3,
+.ylafooter h4,
+.ylafooter h5,
+.ylafooter h6{color:#fff;}
+
+.etusivunostot {
+	margin:40px auto;
+	padding:60px 0;
+	border-top:1px solid #dddddd;
+	border-bottom:1px solid #dddddd;
+}
+/*SemioWebio*/
+#semiowebio a {
+	display: block;
+	width: 50%;
+	float: left;
+}
+#semiowebio img {
+	float: right;
+	margin-right:11px;
+	opacity: 0.7;
+}
+#semiowebio a:nth-of-type(2) img {
+	float: left;
+	margin-left: 11px;
+}
+#semiowebio img:hover {
+	opacity: 1;
+}
+.col-16, .col-25, .col-33, .col-50, .col-66, .col-75, .col-83, .col-10, .col-90 {
+	float: left;
+}
+.col-10 {
+	width: 10%;
+}
+.col-16 {
+	width: 16.6666666666%;
+}
+.col-25 {
+	width: 25%;
+}
+.col-33 {
+	width: 33.3333333333%;
+}
+.col-50 {
+	width: 50%;
+}
+.col-66 {
+	width: 66.666664666%;
+}
+.col-75 {
+	width: 75%;
+}
+.col-83 {
+	width: 83.333333333%;
+}
+.col-90 {
+	width: 90%;
+}
+.col-100 {
+	width: 100%;
+}
+.right {
+	float:right;
+}
+
+.sivupalkki{width:30%;}
+
+
+.sisalto ul li{font-size: 16px; line-height: 150%;}
+
+/* Webio Asettelumallidivit */
+
+.col-left {
+  width:49%;
+  float:left;
+}
+
+.col-right {
+  width:49%;
+  float:right;
+}
+
+.col-full {
+  clear:both;
+  width:100%;    
+}
+
+.col-3 {
+  width:32%;
+	float:left;
+}
+
+.col-3-center{
+    margin: 0 2%;
+    padding: 0;
+}
+/*
+.nostot .col-3{margin:0 0 0 1%;}
+.nostot .col-3:nth-of-type(3){margin:0 1% 0 0;}
+.nostot .col-3-center{margin: 0 2%;}*/
+
+.slogan {
+	text-align:center;
+	margin-bottom:50px;
+}
+.slogan p{
+  text-shadow: 0px 2px 5px rgba(150, 150, 150, 1); 
+  text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.78);
+}
+
+.paaotsikko {
+	float:left;
+	background:url(paaotsikkobg.png) no-repeat center bottom;
+	width: 80%;
+  height:auto;
+	padding: 0 10%;
+	text-align:center;
+  background-size: 100% 100%;
+  line-height: 10px !important;
+}
+.alasivupaakuva {
+	background-repeat:no-repeat;
+  background-size:cover;
+  background-position:center top;
+}
+/* Ylavalikko */
+
+
+nav.top-navi {
+	float:left;
+	background:url(navibg.png) no-repeat center top;
+	background-size:100% auto;
+	width: 80%;
+	padding: 0 10%;
+  position: relative;
+  z-index: 2;
+text-align: center;
+}
+nav.top-navi ul {
+	margin:0;
+	padding:0;
+	float: left;
+	display: block;
+}
+nav.top-navi li {
+	height: auto;
+	display:inline-block;
+}
+nav.top-navi li a {
+	float: left;
+	padding-left:24px;
+	padding-right:24px;
+	color:#4b3805;
+	font-weight:700;
+	font-size:18px; /*1.125em*/
+	text-transform:uppercase;
+}
+
+
+nav#english-navi li a { padding-left:18px;padding-right:18px;}
+
+nav.top-navi li a:hover{
+	color:#000;
+	text-decoration:none;
+}
+
+
+
+ul#kielinavi li a {
+	font-size: 12px;
+	line-height: 14px;
+	color: #000;
+	margin: 31px 0px;
+	padding: 8px 10px;
+	height: auto;
+}
+ul#kielinavi li.valittu a {
+	background-color: #4b3805;
+	border-radius: 200px;
+	color:#fff;
+}
+
+
+nav.top-navi ul:first-of-type li:first-of-type a {
+	padding: 33px 10px 33px 25px;
+}
+nav.top-navi li a, nav.top-navi ul:first-of-type li:first-of-type a {
+	padding-top: 34px;
+	padding-bottom: 30px;
+}
+.logo img {
+	margin:0 auto;
+	float:none;
+	display:block;
+}
+.logo-etusivu {
+	margin-top: 50px;
+  -webkit-filter: drop-shadow(1px 1px 8px rgba(255,255,255,0.7));
+filter: drop-shadow(1px 1px 8px rgba(255,255,255,0.7));
+}
+
+nav#english-navi #kielinavi li a  {padding:8px;}  
+
+.karuselliitem {
+	position:relative;
+}
+.karuselliteksti {
+	position:absolute;
+	top:110px;
+	left:10%;
+	text-align:center;
+	width:40%;
+}
+.owl-theme .owl-controls {
+	position: absolute;
+	bottom: 10px;
+	width: 100%;
+}
+.sisalto {
+	margin-top:55px;
+	margin-bottom:90px;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+
+
+/*tabien classit */
+
+
+a.sisaltodiv_tab_23, a.sisaltodiv_tab_22{
+	font-size:13px;
+	color:#666666;
+	text-decoration:none;
+	float:left;
+	background:#A5ADA2;
+	padding:5px 0px 5px 0px;
+	height:20px;
+	width:111px;
+	float:left;
+	font-weight:bold;
+	text-align:center;
+	display:block;
+}
+a.sisaltodiv_tab_valittu_23, a.sisaltodiv_tab_valittu_22{
+	font-size:13px;
+	color:#fff;
+	text-decoration:none;
+	float:left;
+	background:#2C8305;
+	padding:5px 0px 5px 0px;
+	height:20px;
+	width:111px;
+	float:left;
+	font-weight:bold;
+	text-align:center;
+	display:block;
+}
+
+
+.logo-alasivu{
+	padding: 80px 0 120px;
+	background:url(../img/front/alasivu_logovarjo.png) no-repeat center top;
+  background-size:auto;
+  background-position-y: -20px;
+}
+
+
+
+
+
+/*Etusivunostot*/
+
+.nostot{margin-top:80px; float:left; width:100%;}
+
+/*.nostot .col-3{background-color: #dddddd;}*/
+
+/*Esimaaritettysisaltomalli*/
+
+
+
+
+.tuotenosto {
+     padding: 2%;
+    text-align: center;
+    margin:0 auto;
+    width: 95%;
+  
+}
+
+
+
+
+.tuotenosto img{margin:0 auto; float:none; display:block;}
+
+.tuotenosto h2, 
+.tuotenosto h3,
+.tuotenosto h4,
+.tuotenosto h5,
+.tuotenosto h6,
+.tuotenosto p, 
+.tuotenosto a{text-align:center;}
+
+.tuotenosto_teksti{padding:40px 3%; width:94%; display: block;}
+
+
+/*lamboard*/
+
+.slogan-lamboard {
+  position: absolute;
+	top: 400px;
+	width: 100%;
+	left: 0;
+  z-index: 2;
+}
+
+
+.slogan-lamboard img{
+	margin:0 auto;
+  display:block;
+  float:none;
+}
+
+.logo-lamboard img{
+	position: absolute;
+	top: 0;
+	margin-left: 50%;
+	left: -403.5px;	
+  z-index: 1;
+}
+
+.lamboardpaakuva{background:url(../img/front/lamboard_pk.jpg) no-repeat top center; height:835px; position: relative; margin-bottom: 20px; background-size: cover;}
+	
+.lamboard-sp h1, .lamboard-sp h1 a, .lamboard-sp h2, .lamboard-sp h2 a, .lamboard-sp h3, .lamboard-sp h3 a, .lamboard-sp h4, .lamboard-sp h4 a, .lamboard-sp h5, .lamboard-sp h5 a, .lamboard-sp h6, .lamboard-sp h6 a,
+nav.top-navi.lamboard-sp-navi li a, nav.top-navi.lamboard-sp-navi ul:first-of-type li:first-of-type a{
+	color:#f9b233;
+}
+
+nav.top-navi.lamboard-sp-navi li a:hover, #sel-oakpanels-18 a:hover, #sel-pine-19 a:hover, #sel-stock-20 a:hover, #sel-contact-21 a:hover,
+.lamboard-sp-en nav.top-navi.lamboard-sp-navi li a:hover, .lamboard-sp-en #sel-oakpanels-18 a:hover, .lamboard-sp-en #sel-pine-19 a:hover, .lamboard-sp-en #sel-stock-20 a:hover, .lamboard-sp-en #sel-contact-21 a:hover{
+    color: #515151;
+}
+ul#kielinavi.lamboard-sp-navi li.valittu a {
+    background-color: #f9b233;
+}
+
+/*etusivunbanneri*/
+
+.lamboard-banneri{margin-top:20px;}
+
+.lamboard-sp-en .paaotsikko {
+    position: relative;
+    z-index: 2;
+}
+
+.logo-lamboard.content-col{height:300px;}
+
+
+.lamboard-sp-en nav.top-navi li {
+    margin: 0;
+}
+
+.lamboard-sp-en nav #kielinavi li {
+    margin: 0;
+}
+
+/*lamboard EN*/
+
+
+
+.lamboard-sp-en h1, .lamboard-sp-en h1 a, .lamboard-sp-en h2, .lamboard-sp-en h2 a, .lamboard-sp-en h3, .lamboard-sp-en h3 a, .lamboard-sp-en h4, .lamboard-sp-en h4 a, .lamboard-sp-en h5, .lamboard-sp-en h5 a, .lamboard-sp-en h6, .lamboard-sp-en h6 a,
+.lamboard-sp-en nav.top-navi.lamboard-sp-navi li a, .lamboard-sp-en nav.top-navi.lamboard-sp-navi ul:first-of-type li:first-of-type a{
+	color:#0160A2;
+}
+
+
+.lamboard-sp-en ul#kielinavi.lamboard-sp-navi li.valittu a {
+    background-color: #0261A3;
+}
+
+.lamboard-sp-en footer {
+	background-image:url(footerbg-lamboard-uk.jpg);
+}
+
+
+.lamboard-sp-en .logo-lamboard img {
+ 		position:static;
+		margin: 120px auto;
+  	width:auto !important;
+}
+
+
+a.extralinkki {
+    color: #4b3805;
+    margin: 25px 2% 0;
+    text-transform: uppercase;
+  	position: absolute;
+  	padding: 10px 2%;
+ 	 	background-color: #e7e7e7;
+}
+
+
+/*VIDEOHEADER*/
+#frontpage-mainimg {
+
+}
+
+#bgvid {
+position: absolute;
+top: 0;
+left: 50%;
+z-index: 1;
+margin-left: -950px;
+}
+
+video {
+    width: 1920px !important;
+    height: auto !important;
+}
+.videoheadercontent {
+position: absolute;
+z-index: 2;
+}
+
+#mainimg-front {
+    height: 1080px;
+    overflow: hidden;
+    position: relative;
+  margin-bottom: 20px;
+  top:-90px;
+}
+#mainimg-front h1 {
+	text-align: center;
+}
+#mainimg-mobile {
+	display: none;
+}
